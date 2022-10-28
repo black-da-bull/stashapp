@@ -1,7 +1,7 @@
 # This dockerfile should be built with `make docker-build` from the stash root.
 
 # Build Frontend
-FROM node:alpine as frontend
+FROM node:alpine@sha256:1a04e2ec39cc0c3a9657c1d6f8291ea2f5ccadf6ef4521dec946e522833e87ea as frontend
 RUN apk add --no-cache make
 ## cache node_modules separately
 COPY ./ui/v2.5/package.json ./ui/v2.5/yarn.lock /stash/ui/v2.5/
