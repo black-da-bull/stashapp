@@ -32,7 +32,7 @@ ARG STASH_VERSION
 RUN make build
 
 # Final Runnable Image
-FROM alpine:latest
+FROM alpine:latest@sha256:bc41182d7ef5ffc53a40b044e725193bc10142a1243f395ee852a8d9730fc2ad
 RUN apk add --no-cache ca-certificates vips-tools ffmpeg
 COPY --from=backend /stash/stash /usr/bin/
 ENV STASH_CONFIG_FILE=/root/.stash/config.yml
