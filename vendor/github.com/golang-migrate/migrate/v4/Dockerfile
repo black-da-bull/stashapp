@@ -1,4 +1,4 @@
-FROM golang:1.16-alpine3.13 AS builder
+FROM golang:1.16-alpine3.13@sha256:c538c29503b9ac4b874ae776a0537fe16fde4581af896d112e53a44a9963b116 AS builder
 ARG VERSION
 
 RUN apk add --no-cache git gcc musl-dev make
