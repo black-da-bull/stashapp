@@ -24,7 +24,7 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "@apollo/client": "^3.3.7",
+    "@apollo/client": "^3.11.4",
     "@formatjs/intl-getcanonicallocales": "^1.5.3",
     "@formatjs/intl-locale": "^2.4.14",
     "@formatjs/intl-numberformat": "^6.1.3",
