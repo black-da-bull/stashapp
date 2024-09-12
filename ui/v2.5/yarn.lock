@@ -8120,13 +8120,12 @@ videojs-landscape-fullscreen@^11.33.0:
   dependencies:
     global "^4.4.0"
 
-videojs-seek-buttons@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/videojs-seek-buttons/-/videojs-seek-buttons-2.2.0.tgz#50b8da1178a5718ee5a7649fbb90a64a518103f7"
-  integrity sha512-yjCA6ntq+8fRKgZi/H6QJlghQWgA1x9oSRl6wfLODAcujhynDXetwMgRKGgl4NlV5af2bKY6erNtJ0kOBko/nQ==
+videojs-seek-buttons@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/videojs-seek-buttons/-/videojs-seek-buttons-3.0.1.tgz#cc2adc23a6372e8aa6c2e9fd0fe7e7831a46747f"
+  integrity sha512-scVWOqCMqHajlbwYZIzJ5nBYkDXTAhEpWjfcdCu8ykksA1barrKnEKdQvS84TtDWOx6UXDD/e/x0acYEZCDMEQ==
   dependencies:
     global "^4.4.0"
-    video.js "^6 || ^7"
 
 videojs-vtt-thumbnails-freetube@^0.0.15:
   version "0.0.15"
