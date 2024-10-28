@@ -72,7 +72,7 @@
     "subscriptions-transport-ws": "^0.9.18",
     "thehandy": "^1.0.3",
     "universal-cookie": "^4.0.4",
-    "video.js": "^7.17.0",
+    "video.js": "^7.21.1",
     "videojs-landscape-fullscreen": "^11.33.0",
     "videojs-seek-buttons": "^2.2.0",
     "videojs-vtt-thumbnails-freetube": "^0.0.15",
