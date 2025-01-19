@@ -52,7 +52,7 @@
     "mousetrap": "^1.6.5",
     "mousetrap-pause": "^1.0.0",
     "normalize-url": "^4.5.1",
-    "postcss": "^8.2.10",
+    "postcss": "^8.5.0",
     "query-string": "6.13.8",
     "react": "17.0.2",
     "react-bootstrap": "1.4.3",
